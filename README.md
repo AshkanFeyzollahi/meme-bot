@@ -1,6 +1,6 @@
 # MemeBot
 
-[showcase](./assets/showcase)
+![showcase](./assets/showcase)
 
 The discord.py bot that uses https://meme-api.com/ to generate
 memes and send them to discord servers

@@ -1,75 +1,77 @@
-# MemeBot
+# Meme Bot: A Discord Bot That Generates and Sends Memes Using meme-api.com
 
-![showcase](./assets/showcase.jpg)
+![Showcase Image](./assets/showcase.jpg)
 
-The discord.py bot that uses https://meme-api.com/ to generate
-memes and send them to discord servers
+MemeBot is a Discord bot designed to fetch memes from meme-api.com and distribute them across various Discord servers.
 
-## Requirements
+## Prerequisites
 
-* Python >= 3.10 (We Recommend 3.11)
-* Pip (Latest)
-* git (Latest)
+To get started with MemeBot, ensure the following tools are installed:
 
-## How to use?
+- Python: Version 3.10 or higher (preferably 3.11).
+- PIP (Python package manager): The latest version.
+- Git: The latest stable release.
 
-1. Clone this repository by entering this command in terminal/cmd:
+## Setup Instructions
 
-    ```bash
-    git clone https://github.com/AshkanFeyzollahi/meme-bot.git
-    ```
+Follow the steps below to set up and use MemeBot:
 
-2. Go to that folder which you cloned repository into, and open terminal/cmd
-    then run one of these options:
+### Step 1: Clone the Repository
 
-    * Windows
+Open your terminal or command prompt and type the following command to download the project files:
 
-        ```bash
-        python -m pip install -r requirements.txt
-        ```
+```bash
+git clone <https://github.com/AshkanFeyzollahi/meme-bot.git>
+```
 
-    * Linux/MacOS
+### Step 2: Install Dependencies
 
-        ```bash
-        python3 -m pip install -r requirements.txt
-        ```
+Navigate to the newly created folder using the terminal or command prompt and install the required packages:
 
-    Now you can run bot on your device/host/
-
-3. To run bot, you will need your bot's token, so go to [Discord Developer Portal](https://discord.com/developers/applications)
-    and once you create your bot, copy its token and open terminal/cmd in folder
-    that you cloned repository to and enter this command:
+- For **Windows** Users:
 
     ```bash
-    echo "BOT_TOKEN={BOT_TOKEN}" > ".env"
+    python -m pip install -r requirements.txt
     ```
 
-    and also don't forgot to replace `{BOT_TOKEN}` with your bot's token.
+- For **Linux** & **Mac OS** Users
 
-4. After doing all task, just open terminal/cmd in same directory and execute
-    one of these commands to run bot:
-
-    * Windows
-
-        ```bash
-        python main.py
-        ```
-
-    * Linux/MacOS
-
-        ```bash
-        python3 main.py
-        ```
-
-    Once you runned bot, you will receive something like this output:
-
-    ```plain
-    Logged in as ...#... (ID: ...)
+    ```bash
+    python3 -m pip install -r requirements.txt
     ```
 
-    Now go to your discord server and send `?meme` to see that your bot
-    sends a meme to your server
+### Step 3: Obtain Your Bot Token
 
-## Issues
+Create a new bot application on the Discord Developer Portal, obtain its token, and save it for later use.
 
-If you had problem running bot, feel free to open an issue.
+### Step 4: Configure Environment Variables
+
+Create a new file named .env within the project folder and add the following line, replacing <YOUR_BOT_TOKEN> with your actual bot token:
+
+BOT_TOKEN=<YOUR_BOT_TOKEN>
+Save the file and exit the terminal or command prompt.
+
+### Step 5: Run the Bot
+
+Return to the terminal or command prompt in the project folder and execute the following command based on your operating system:
+
+- For **Windows** Users
+
+    ```bash
+    python main.py
+    ```
+
+- For **Linux** & **Mac OS** Users
+
+    ```bash
+    python3 main.py
+    ```
+
+Upon successful execution, you should see a message similar to the following:
+
+Logged in as ...#.... (ID: ...)
+Now join your desired Discord server and test out the bot by sending the command ?meme. You should start receiving memes from MemeBot!
+
+## Troubleshooting
+
+Should you encounter any issues while setting up or using MemeBot, please consider opening an issue on GitHub detailing the problem. We'll be happy to help you resolve any difficulties you may face.

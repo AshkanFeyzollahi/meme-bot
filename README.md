@@ -21,7 +21,7 @@ Follow the steps below to set up and use MemeBot:
 Open your terminal or command prompt and type the following command to download the project files:
 
 ```bash
-git clone <https://github.com/AshkanFeyzollahi/meme-bot.git>
+git clone https://github.com/AshkanFeyzollahi/meme-bot.git
 ```
 
 ### Step 2: Install Dependencies
